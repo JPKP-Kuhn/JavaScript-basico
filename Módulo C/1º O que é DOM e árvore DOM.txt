@@ -1,0 +1,37 @@
+DOM (Document Object Model)
+
+Ele é um facilitador que existe dentro do navegador e dentro do HTML5 para dar acesso aos elementos diretamente para o JavaScript, sem ele teríamos muita dificuldade para acessar os elementos na nossa página
+
+Modelo de objetos para documentos. É um conjunto de objetos dentro do navegador, que dará acesso aos componentes internos do seu web site. Ele não funciona dentro do Node.JS
+Ele está presente quando estou rodando JS dentro do navegador.
+
+É importante saber fazer a árvore DOM do seu site-
+
+Ela começa da raiz e essa raiz do navegador é chamada de window, então tudo dentro do JavaScript está dentro de um objeto chamado window. Então aquela janela do seu navegador é um objeto DOM que se chama window.
+
+Dentro do window, existem vários outros objetos, como esses 3 exemplos:
+
+*location -- diz qual é a localização do site, como a URL, qual é a página atual e qual foi a anterior
+
+*document -- É o documento atual. Dentro deste existe a parte de html, que possui 2 child ("filhos", partes) o head (parte de cabeçalho) e o body (parte de corpo). Dessa maneira o html é parent de head e body, mas é child de document.
+Quem está imediatamente acima é parent dos child, que está embaixo. No documento temos meta e title dentro de head,m já no body tem h1 (título), p (parágrafo que pode ter uma strong dentro) e uma div
+
+*history -- Vai guardando de onde você veio e para onde você vai, facilitando a navegação dentro do site.
+
+
+
+Árovere DOM, exemplo com base no ex005 deste módulo - pesquise http://devfuria.com.br/javascript/dom/:
+
+    ---  window ---
+     |     |       |
+location document history
+           |
+         html-------
+         |          |
+     ---head         body--------------
+     |     |           |    |   |      |
+   meta    title       h1   p   p     div
+                                |
+                              strong
+
+Cada um desses nomes são os elementos

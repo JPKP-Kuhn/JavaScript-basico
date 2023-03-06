@@ -1,0 +1,8 @@
+Formatando números:
+var n1 = 1545.5
+n1.toFixed(2) //agora esse número terá 2 casas decimais
+
+n1.toFixed(2).replace('.', ',') //trocará o . por , ficará 1545,50
+
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})  //fará com que o valor fique monetário: R$ 1.545,50
+Pra outras moedas é só trocar o BRL por USD ou EUR

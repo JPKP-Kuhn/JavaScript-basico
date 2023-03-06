@@ -1,0 +1,45 @@
+Operadores relacionais
+
+São os mesmos da grande maioria das linguagens de programção:
+> maior do que
+< menor do que
+>= maior ou igual
+<= menor ou igual
+== igual        =(é um operador de atribuição e é recebe)
+!= diferente
+
+Pra toda expressão que tenha um operador relacional ligado a ela, seu resultado será um valor booleano (true e false)
+5 > 2   --> true
+7 < 4   --> false
+8 >= 8  --> true
+9 <= 7  --> false
+5 == 5  --> true
+4 != 4  --> false
+
+Use o node pra testar. Também pode atribuir um valores em variáveis e relaciona-los. Também pode colocar operadores aritméticos na mesma linha, aí o comando primeiro fará os aritméticos e depois os relacionais
+
+var a = 8
+var b = 15
+a > b
+false
+a < b 
+true
+a >= b - 10
+true
+
+Exemplos:
+preço >= 200.50  // o preço é maior ou igual a 200.50?
+idade < 18  // a idade é menor do que 18?
+curso == 'JavaScript' // o curso é JavaScript?
+n1 != n2  // o primeiro número é diferente do segundo?
+
+Também há operadores relacionais que são chamados de identidade
+5 == 5  --> true  //valor 5 em número inteiro
+5 == '5' --> true  //valor 5 em string
+5 != '5'  --> false  //eles são iguais
+ O JS analisa se esse 5 tem o mesmo valor que o outro. Mesmo sendo valores de tipos diferentes eles têm a mesma grandeza.
+Pra isso existe um operador de identidade (ou operador de igualdade restrita)
+5 === '5'   --> false   //=== testa se os dois 5 são idênticos, ou seja, do mesmo valor e do mesmo tipo
+5 === 5  --> true
+!== (desigual restrito) é o contrário do ===
+5 !== '5'  --> true   //pois são de tipos diferentes

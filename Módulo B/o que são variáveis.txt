@@ -1,0 +1,46 @@
+O que é uma variável?
+imagine que você comprou um terreno e quer transforma-lo num estacionamento pra receber automóveis. Se for colar de qualquer maneira fica desorganizado, então são delimitadas vagas pra estacionamento, além disso cada vaga recebe uma marcação: 
+vaga a1
+vaga a2
+vaga a3
+vaga a4
+vaga a5
+
+também pode ter vagas pra caminhonetes:
+vaga c1
+vaga c2
+vaga c3
+
+Ou pra motocicletas: 
+vaga m1
+vaga m2
+vaga m3
+vaga m4
+
+Pra colocar um automóvel numa vaga escrevemos: vaga a1 = carro1  (= significa recebe). Pra colocar outro carro é só escrever: vaga a1= carro2
+Pra deixar a vaga vazia é só escrever: vaga a1=null
+
+O terreno que demos no exemplo seria a memória do computador, onde será colocado dados que devem estar organizados em espaços delimitados para não serem perdidos. Esses espaços são chamados de variáveis e são nomeados var (pra nomear uma variável, ou pode usar let, no JS moderno). Posso chamar uma var por nome: var n1 ou var n2, ou qualquer outro nome. As variáveis receberão algum dado, então:
+var n1= 5
+var n2 = 2.4
+Isso é chamdo de atribuição, colocar um valor numa variável.
+Existem variáveis de tamanhos maiores, assim como as vagas. Vamos chamá-las de s1, s2 e s3 que receberão uma cadeia de caracteres (as strings que podem ser por '', "", `` (crase). Há diferenças entre essas 3 formas)
+var s1 = 'JavaScript'
+var s2 = "estudando"
+var s3 = `suco de laranja`
+ 
+O nome de cada variável é chamado de identificador e existem algumas regras:
+1- Pode começar com uma letra, $ ou _  Não pode começar com números (dará erro)
+2 -É possível usar números, não no início.
+3 - Pode usar acentos e símbolos (pi,  fi...)
+4 - Pode ter espaço, se quiser use o _
+5 - Não pode  ser palavras reservadas (que o prórpio JS usa como comandos): 'fuction' , 'alert', var ...
+Pra começar com variáveis vamos usar o Node.js
+
+Em JS há diferença entre letras maiúsculas. Tente usar nomes coerentes pra var, relacionados ao que serão usados.
+Pro JS há dados do tipo number (pra todo tipo de número, inteiro, real); strings (cadeias de caracteres que ficam entre '' ou "" ou `` pode ser letras números) ; boolean (valor booleano, o true e false que são considerados tipos primitivos primordiais)
+O number tem dois valores internos: infinity e NaN (Not a Number).
+Tem também null, undefined, object (tem array), function.
+Pra trabalhar com tudo isso pode-se usar o typeof (comando que informará se é uma strinh, number, object, function...) e do lado colocar o nome da var, por exemplo, ou já um número ou string. Experimente no Node.js
+
+

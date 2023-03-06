@@ -1,0 +1,13 @@
+Conversão de string pra número
+há 2 comandos: Entre os () fica o que quero que seja convertido.
+parse vem de parsear, converter
+Number.parseInt(n) /* pra converter pra números inteiros */
+Number.parseFloat(n) /* pra converter pra números decimais, pois fica "EX:" 2.2  o ponto é chamado de "floating point" */
+
+Também existe o Number(n) /* o JS trabalhará com o valor informado. Ele veio das versões mias recentes do ECMAN script. Dependendo do número colocado ele tratará como se fosse .parseInt, ou .parseFloat
+
+De número pra string
+há 2 comandos:
+
+String(n)
+n.toString() /* agora o n(o que quero que seja convertido) fica pra fora

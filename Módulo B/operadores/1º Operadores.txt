@@ -1,0 +1,8 @@
+Operadores
+O JS possui várias famílias de operadores, alguns são:
+aritméticos
+atribuição
+relacionais
+lógicos
+ternário
+

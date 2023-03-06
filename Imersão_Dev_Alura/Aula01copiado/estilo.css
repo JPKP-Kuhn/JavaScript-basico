@@ -1,0 +1,133 @@
+body {
+	font-family: "Roboto Mono", monospace;
+	text-align: center;
+	background-color: #090909;
+}
+
+.container {
+	text-align: center;
+	padding: 20px;
+}
+
+.page-title {
+	color: #ffffff;
+	margin: 0 0 5px;
+}
+
+.page-subtitle {
+	color: #ffffff;
+	margin-top: 5px;
+}
+
+.page-logo {
+	width: 200px;
+}
+
+.alura-logo {
+	width: 40px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+body > img {
+	margin: 0 10px;
+}
+
+img {
+	max-height: 250px;
+}
+
+.container__principal {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: linear-gradient(90deg, #87cefa, #00ced1);
+	width: 100%;
+	border-radius: 5px;
+	padding: 2rem;
+}
+
+.container__principal input {
+	padding: 15px 10px;
+	border: none;
+	border-radius: 25px;
+	text-align: center;
+}
+
+.nome__label,
+.conversor__titulo,
+.resposta__nome,
+.resposta__valor {
+	color: #f3f3f3;
+}
+
+.container__nome {
+	width: 60%;
+}
+
+.nome__label {
+	font-size: 1.3rem;
+	margin-bottom: 0.5rem;
+}
+
+.nome__input {
+	width: 100%;
+}
+
+.container__valor,
+.container__nome {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.conversor__titulo {
+	padding: 2rem 0 0.5rem 0;
+}
+
+.msg__erro {
+	font-size: 0.85rem;
+	margin-top: 0;
+	color: red;
+}
+
+.container__moedas {
+	display: flex;
+	margin-top: 2rem;
+	gap: 4rem;
+	margin-bottom: 2.5rem;
+}
+.moedas__opcao {
+	border-radius: 50px;
+	padding: 30px;
+	border: none;
+	box-shadow: 5px 5px 10px #4f4f4f;
+}
+
+.moedas__opcao:hover {
+	cursor: pointer;
+	transform: scale(1.2);
+	border: 2px solid #ffffff;
+}
+
+.dolar {
+	background-image: url("https://static.mundoeducacao.uol.com.br/mundoeducacao/2022/05/bandeira-estados-unidos.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.iene {
+	background-image: url("https://s4.static.brasilescola.uol.com.br/be/2022/11/bandeira-do-japao.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.euro {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/255px-Flag_of_Europe.svg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}

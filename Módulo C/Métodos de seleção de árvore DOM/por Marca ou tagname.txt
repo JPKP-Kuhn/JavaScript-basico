@@ -1,0 +1,18 @@
+por Marca ou por tagname
+
+usa-se o comando getElementsByTagName(), o qual já está gravado no VS Code.
+Funciona assim:
+1º crie uma variável = window.document.getElementsByTagName('alguma tag que pode ser aquelas de exemplo da árvore DOM')
+var p1 = window.document.getElementsByTagName('p') //p da tag de parágrafo
+Caso nesse exemplo tenha mais de um parágrafos e eu quiser selecionar apenas um deles, então após o ('')[Algum número, sendo que 0 é o 1º, 1 é 2º, 2 é 3º...]
+
+Depois pode usar isso pra
+window.document.write(p1.innerText) //escreve o mesmo parágrafo, mas sem as formatações do texto, como o negrito, então pra selecionar todo o comando precisa ser innerHTML, mas este não funciona no window.alert
+Ou
+window.document.write('Está escrito assim: ' + p1.innerText)
+Pra selecionar outro parágrafo é só trocar o Nº entre [] do comando anterior
+Ou
+p1.style.color = 'blue' //muda a cor do parágrafo pra azul
+
+Pra modificar a cor de fundo do site, igual ao que foi feito na primeira aula do curso, usando o DOM -  var corpo = window.document.body
+corpo.style.background = 'black'

@@ -1,0 +1,11 @@
+let num = [ , , ] essa variável é um vetor array. Array também é um objeto
+pode colocar um número no primeiro espaço, uma string, um valor lógico
+O problema é que o índice sempre fica fixo, sempre será 0, 1, 2 e isso se torna
+confuso com código maiores, então usa-se objetos
+Declarando um objetos:
+let amigo = {, , ,} como num array tá dividido em várias partes.
+let amigo = {nome:'josé', , ,} agora o nome do primeiro índice é nome
+let amigo = {nome:'josé',sexo:'M' , ,} criou um atributo com o valor maiores
+let amigo = {nome:'josé',sexo:'M' ,peso:85.4 ,}
+let amigo = {nome:'josé',sexo:'M' ,peso:85.4 , engordar(p){}} Agora tem uma função nesse objeto
+a função engordar()

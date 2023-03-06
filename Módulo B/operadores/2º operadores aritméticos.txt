@@ -1,0 +1,17 @@
+Aritméticos são:  +  -  *  /  %  **
+Todos esses são operadores aritiméticos e são usados pra fazer cálculo. São usados operadores binários, 2 números.
+5 + 2 = 7
+5 - 2 = 3
+5 * 2 = 10
+5 / 2 = 2.5 //essa é a divisão real
+5 % 2 = 1  //resto de uma divisão inteira
+5 ** 2 = 25  //potência
+
+Precedência de operadores:  5 + 3 / 2 = 6.5  //segue a mesma lógica na matemática. Também é possível usar parênteses como numa expressão. A ordem é: 1º () ;2º ** ;3º * / % ;4º + -   A ordem é sempre da esquerda pra direita
+var a = 5 +3         8
+var b = a%5          3
+var c = 5*b**2       45
+var d = 10 - a/2     6
+var e = 6*2/d        2
+var f = b%e + 4/e    3
+

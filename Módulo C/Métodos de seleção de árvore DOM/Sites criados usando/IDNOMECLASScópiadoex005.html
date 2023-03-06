@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1ºs passos com DOM</title>
+</head>
+   <style> 
+   body {  
+     background: rgb(17, 127, 201);
+     color: rgb(255, 255, 255);
+     font: normal 20pp Arial; 
+   }
+   </style>
+<body>
+    <h1>Iniciando os estudos com DOM (Document Object Model)</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar <strong>DOM</strong> em JS.</p>
+    <div id='msg'>Clique em mim</div>
+    <script>
+      window.document.write('Olá,  mundo! <br/>') //essa não é a melhor maneira de adicionar componentes, mas é a mais simples
+      window.document.write(window.document.charset) //charset mostra o set de caracteres que está sendo utilizado
+      window.document.write(window.navigator.appName) /*navigator busca algumas configurações da minha página, 
+      aparece Netscape porque o google está se comportando com um Netscape */
+      window.document.write(window.document.URL) //mostra a URL do site - https:// ...
+      var d = window.document.getElementById('msg') // agora a div com o Id 'msg' foi selecionada, então eu posso usar pra outras coisas
+      d.style.background = 'green' //fica verde
+      /*d.innerText = 'Estou aguardando...' //assim modifica o texto */
+      // os outros seguem o mesmo princípio, ao invés de id = 'msg' ; é name='...' e class=...'
+    </script>
+</body>
+</html>

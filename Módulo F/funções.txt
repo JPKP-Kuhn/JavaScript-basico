@@ -1,0 +1,19 @@
+O JS é uma linguagem que funciona como linguagem funcional, sobre um paradigma 
+funcional. Executar uma tarefa metódicamente.
+Toda função precisa ter uma chamada, seja uma única vez ou sempre que algo
+acontecer, com pontualidade, numa hora específica,...
+Precisa também de alguma entrada, um parâmetro (com algum item específico ou 
+o que quer que seja feito).
+Ação- é o que a função vai fazer, todo o processo
+retorno- o que a função retorna de resultado.
+Chamada, conjunto de parâmetro, uma ação e um retorno
+Nem toda função usa parâmetros nem tem retornos
+Técnicamente: Funções são ações executadas assim que são chamadas ou em decorrência
+de algum evento.
+Uma função pode receber parâmetros e retornar um resuldado
+Já foi utilizado antes o onclick que dispara uma função quando clicado.
+function ação(parâmetros formail){
+    O que vai ser feito
+    return de um resultado que leva de vola pra chamada
+}
+ação(5) //chamada com o parâmetro 5 (que nesse caso é um parâmetro real)

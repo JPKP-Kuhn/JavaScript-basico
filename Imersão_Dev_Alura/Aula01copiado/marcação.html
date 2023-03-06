@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!--Código já pronto-->
+    <div class="container">
+        <h1 class="page-title">
+            Conversor de moedas
+        </h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        <img src="https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Convers%C3%A3o+1.png">
+    </a>
+    <section class="container__principal">
+    
+        <div class="container__nome">
+            <label for="nome" class="nome__label">Digite seu nome</label>
+            <input type="text" class="nome__input" id="nome" placeholder="Digite aqui seu nome.">
+            <span class="nome__msg--erro msg--erro"></span>
+        </div>
+    
+        <h2 class="conversor__titulo">Escolha uma moeda para a conversão</h2>
+    
+        <div class="container__valor">
+            <input type="number" class="valor__input" placeholder="Valor(BRL)">
+            <span class="conversor__msg--erro msg--erro"></span>
+        </div>
+    
+        <div class="container__moedas">
+            <button type="button" class="moedas__opcao dolar"></button>
+            <button type="button" class="moedas__opcao iene"></button>
+            <button type="button" class="moedas__opcao euro"></button>
+        </div>
+        <span class="resposta">
+            <p class="resposta__nome"></p>
+            <h2 class="resposta__valor"></h2>
+        </span>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

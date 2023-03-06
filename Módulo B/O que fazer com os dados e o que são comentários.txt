@@ -1,0 +1,9 @@
+Na aula anterior eu tinha criado os comandos windows.alert() ; window.confirm() ; window.prompt()
+Nesses dois últimos é possível pegar os dados informados, guardá-los e utilizá-los pra mostrar algo diferente.
+
+Comentários: às vezes os programadores deixam eles de lado, mas são importantes, pois quem comenta bem seus códigos, mantém ele bem documentado. Quando você é um programador mais experiente e pegar um código que escreveu há muito tempo você vai olhar e dizer: "eu não lembor nada desse código". Se esse código estivesse comentado seria muito mais fácil. Em JS (JavaScript) os comentários podem ter 2 simbologias: // ou a /*  */ . O // serve pra colocar um comentário numa única linha, então qualquer coisa escrita depois do // é considerado um comentário, já o /* */ dá pra fazer comentários de mais de uma linha. Veja o código feito na aula 4 módulo A. 
+ Você coloca // a esquerda do comando de JS, aí no VS Code ele ficará verde e será ignorado quando for executado, você pode também colocar o comentário depois do comando, EX: "comando" // explicação de pra que serve esse comando. Claro que esse comentário, assim como qualquer outro, será desconsiderado. 
+ O /* */ o primeiro coloca antes do comentário numa linha e o último na linha depois do comentário.
+Os comentários servem pra depuração, pra ver como o comando tá funcionando.
+Na parte de html o comentária será: <!-- aqui fica o comentário --> 
+Na parte de CSS o comentário será por /* */

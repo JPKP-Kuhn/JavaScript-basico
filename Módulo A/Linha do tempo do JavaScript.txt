@@ -1,0 +1,30 @@
+Qual a diferença entre Java e Javascript e a evolução deste:
+
+Junto com o início da internet na década de 70. Em 1993, em genebra, 
+Tim Berners-Lee criou uma tecnologia pra transformar o conteúdo para 
+algo mais interativo, através de ligações entre documentos, assim surgiu 
+a linguagem HTML, o protocólo HTTP, que se juntou ao conjunto de 
+protocolos TCP/IP que fazem parte da internet, e fundou a Wolrd Wide Web 
+(WWW). Para utilizar todas essas tecnologias necessitava de um navegador, 
+então surgiu o Mosaic, por Marc Andreessen, que funcionava com HTTP e 
+mostrava páginas web. Mais tarde com a empresa Netscape (em 1994), que 
+criaram o Mozilla, precisou criar algo melhor que o HTML (que era muito 
+estático), então em 1995 o Brendan Eich criou uma linguagem que desse 
+mais funcionalidades que o  HTML, no início se chamava Moca, depois 
+evoluiu para LiveScript e então para JavaScript (porque a linguagem 
+Java estava fazendo muito sucesso na época, então por Marketing deram 
+esse nome, mas a única semelhança entre Java e JavaScript é que basearam
+ na Linguagem C)
+Mais tarde a Microsoft, enquanto criava o Internet Explorer copiou o 
+JavaScript, com algumas mudanças, e chamou de JScript. Pra não dar mais 
+problema, a Netscape decidiu padronizar a liguagem JavaScript em 1997 
+ela entrou em contato com a empresa Ecman, assim a Netscape cedeu o 
+código do javaScript pra Ecman pra padronizar e assim surgiu a linguagem 
+ECMANScript, que é JavaScript padronizado.
+Em 2008 surgiu o Google Chrome, que cresceu muito, pois ele tinha um 
+"motor interno de JavaScript muito poderoso". EM 2009 surgiu a V8 que é 
+tipo o capô por baixo do motor do Chrome e que roda JavaScript e o V8 
+gerava um código JIT (Just in Time). O Node pegou o V8 e modificou para 
+que o JavaScript também possa ser utilizada do lado dos servidores e 
+também fora dos navegadores.
+ 

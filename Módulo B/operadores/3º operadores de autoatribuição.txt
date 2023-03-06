@@ -1,0 +1,12 @@
+Autoatribuição
+var n = 3
+n = n + 4  //n agora é 7 também podia escrever n+=4 pois ali mostra n = n + ,então pode fazer essa simplificação
+simplificação: n(exemplo de variável) +=4
+n-=5    n= n - 5
+n*=4    n= n * 4
+n/=2    n = n/2
+n**=2   n = n**2
+n%=5    n = n % 5
+ para adicionar 1 pode-se escrever ++ , pra subtrair 1 pode-se escrever --  (tudo isso depois da var, então ele soma ou subtrai depois, ou antes, daí soma ou subtrai antes )
+n ++  ou ++n
+n --  ou --n    

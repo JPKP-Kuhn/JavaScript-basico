@@ -1,0 +1,41 @@
+REquer repetições, como por exemplo comer uma pizza:
+function Comerpizza(){ //ponto A
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+} //ponto B
+Assim comeu a pizza inteira, sai do ponto A e foi até o ponto B
+Estruturas de Controle (como ir do ponto A até o B):
+    Sequência - Executa tarefas sequencialmente até chegar ao objetivo
+    Condições (desvios e outras possibilidades) - Tem um teste lógico que 
+pode fornecer.
+verdade ou false e de acordo com o resultado segue um outro caminho.
+    Laços, repetições - Testa uma expressão (sendo true ou false), mas nas
+ repetições.
+Se for true, então ele vai voltar e fazer um loopin, um laço, uma repetição.
+Voltando ele faz de novo essa repetição e se for true ele executa a tarefa de 
+novo. Ele faz essa repetição enquanto a condição for verdadeira, quando for false
+ele quebra o laço e segue o fluxo natural.
+while(condição){
+    /*se condição true, executa o que tá nesse bloco e repete
+    se false, fecha o bloco segue o fluxo normal*/
+}
+
+Exemplo da pizza:
+function Comerpizza(){
+    while(temFatia()){
+        comerFatia()
+    }
+}
+
+Estruturas de repetição com variáveis de controle -
+São feitas três coisas: Inicialização, teste lógico e incremento
+1º Faz a inicialização e o teste lógico, sendo este verdadeiro, ele execuará o bloco 
+e depois voltará e no momento do loopin, também faz um incremento e isso fica acontecendo
+até for falso. Pra isso usa-se o comando:
+for(início ; teste; incremento){}

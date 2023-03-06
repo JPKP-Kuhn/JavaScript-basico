@@ -1,0 +1,39 @@
+Variáveis simples só conseguem armazenar um valor
+var n = 5 //var ou let
+var n = 3 //agora n é substituída pelo valor 3
+Variáveis compostas armazenam vários valores numa mesma estrutura. Ela
+não vai perder valores anteriores para guardar os próximos.
+Exemplo das vagas de estacionamento:
+vaga a0
+vaga a1
+vaga a2
+vaga a3
+vaga a4
+ Ao invés disso, defini-se um único nome pra todas essas vagas
+ vaga a //pra todas as vagas e só pra cada uma delas você coloca um índice
+ vaga a = [0 , 1 , 2] //variável composta com seus índices
+ identificados (0,1,2,...)
+ Essa é uma variável do tipo array (vetor em português)
+ nesse caso a array, o vetor, é o a; o índice ou chave é o 0, 1, 2,...;
+ O elemento (acumula os dados anteriores) e o conteúdo de cada elemento
+ let num = [5 ,8 ,4]
+ Pra realocar um novo elemento na variável:
+ num[3] = 6, a posição 3 recebe o valor 6, se esse índice não existe, então
+ ele é criado.
+ Também pode ser num.push(7) //é um método interno que vai acrescentar
+  valores a uma array, mas cim esse ele automaticamente já coloca no último índice.
+Pra saber o comprimento duma array, utiliza-se o atributo length, então num.length
+No JS ele é um atributo e não um método, por isso não usa ().
+num.sort(), coloda os elemento numéricos em ordem crescente.
+Para percorrer arrays e ver todos os seus valores, utilia-se estruturas de controle
+o for principalmente.
+for(let n; n<array.length;n++){
+    console.log(array[n])
+}
+ou ainda mais fácil:
+for(let n in array){
+    console.log(array[n])
+}
+num.indexOf(7) retora a chave em que está o elemento 7
+Se ele não encontrar o elemento ele retorna -1, que significa
+que ele pesquisou e não encontrou nenhuma ocorrência

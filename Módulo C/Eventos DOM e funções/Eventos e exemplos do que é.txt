@@ -1,0 +1,5 @@
+Um envento DOM é tudo aquilo que pode acontecer com a <DIV>
+Posso fazer, por exemplo, eventos de mouse, ou seja, com o cursor do mouse, colocar ele dentro da <DIV> e disparar um evento chamado mouseenter (que o mouse entrou na <div>); enquanto estiver dentro da <div> posso mover o mouse e assim dispara o mousemove; se clicar e segurar com o mouse na <div> disparará o mousedown; quando soltar o mouse, disparará o mouseup; quando clicar e soltar rapidamente, tem o evento click; quando mover o mouse pra fora da <div> disparará o mouseout
+
+Existem muitos eventos, pode pesquisar no site:
+https://developer.mozilla.org/pt-BR/docs/Web/Events

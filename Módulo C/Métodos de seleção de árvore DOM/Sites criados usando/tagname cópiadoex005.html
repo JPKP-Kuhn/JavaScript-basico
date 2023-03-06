@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1ºs passos com DOM</title>
+</head>
+   <style> 
+   body {  
+     background: rgb(17, 127, 201);
+     color: rgb(255, 255, 255);
+     font: normal 20pp Arial; 
+   }
+   </style>
+<body>
+    <h1>Iniciando os estudos com DOM (Document Object Model)</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar <strong>DOM</strong> em JS.</p>
+    <p>apenas um teste</p>
+    <div>Clique em mim</div>
+    <script>
+      window.document.write('Olá,  mundo! <br/>') //essa não é a melhor maneira de adicionar componentes, mas é a mais simples
+
+
+      var p1 = window.document.getElementsByTagName('p')[0] //p da tag de parágrafo, o Nº é pra selecionar um dos parágrafos
+
+      window.document.write('Está escrito assim: ' + p1.innerText)
+      p1.style.color = 'red' //muda a cor do parágrafo pra vermelho
+      var corpo = window.document.body
+      corpo.style.background = 'black' //assim posso modificar o fundo a qualquer momento sem alterar o origianl
+      document.write(p1.innerHTML)
+      window.alert(p1.innerText)
+    </script>
+</body>
+</html>

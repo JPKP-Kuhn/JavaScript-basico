@@ -1,0 +1,12 @@
+Há 5 métodos de selecionar os elementos para poder navegar dentro da árvore DOM:
+Métodos de acesso
+*por Marca, comando:getElementsByTagName()[] seleciona por nome ou marca, melhor pra quando tem mais de um
+
+*por ID, comando: getElementById() que seleciona o objeto pela família. 
+
+*por Nome, comando: getElementsByName()[] 
+seleciona por nome ou marca, melhor pra quando tem mais de um
+
+*por Classe, comando: getElementsByClassName()  
+
+*por Seletor, comando: 

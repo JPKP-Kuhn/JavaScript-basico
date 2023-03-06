@@ -1,0 +1,24 @@
+por ID
+.getElementById()
+Através de um ID, por exemplo:
+<div id='msg'>Algum texto que aparecerá no site</div>
+
+Também se usa uma variável
+var d = window.document.getElementById('msg') // agora a div com o Id 'msg' foi selecionada, então eu posso
+d.style.background = 'green' //fica verde
+d.innerText = 'Estou aguardando...'  //assim modifica o texto
+
+por Nome 
+.getElementsByName()[funciona igual ao tagname]
+funciona com o mesmo princípio do ID, criando uma variável e dando um nome pra um p ou div...
+d.innerText = 'Olá!'
+
+por Classe
+.getElementsByClassName
+também segue o mesmo princípio do ID
+
+Você que decide qual destes 3 escolher e dependendo da situação um pode ser melhor do que outro
+id é com # e class é com . pra CSS
+
+
+

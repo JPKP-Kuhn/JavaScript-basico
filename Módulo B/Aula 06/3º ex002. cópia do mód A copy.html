@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa, versão2 aula 06</title>
+    <style>
+        body {
+            background-color: rgba(40, 214, 214, 0.801);
+            color: rgb(0, 0, 0);
+            font: normal 15pt Arial;
+        }
+        h1 {color: rgb(221, 243, 19);}
+    </style>
+</head>
+<body>
+    <h1>Hello world! 02/03/2022</h1>Hello world
+    <p>Estou livre da maldição</p>
+    <p>This is my first time writing a HTML file</p>
+    <p>Sou João Pedro e no momento que essa mensagem foi 
+    escrita eu estava com 16 anos, escrevo isso para o meu eu do futuro.</p>
+
+    <p>Continuo estudando e aprendendo hoje é dia 08/03/2022.
+     Sinto que já progredi um bocado.</p>
+     
+    <script>
+        window.alert ('Digite primeiro um número Inteiro, depois um Real e mais um Real para que sejam somados')
+        var n1 = Number.parseInt(window.prompt ('Digite um número: ')) //Number.parseInt converterá pra número inteiro
+        var n2 = Number.parseFloat(window.prompt ('Digite outro número: ')) // Number.parseFloat converterá pra número Real
+        var n3 = Number(window.prompt ('Digite mais um número')) // Number pode substituir os dois de cima dependendo do valor colocado. Ele veio do ECMAN script
+      var s = n1 + n2 + n3
+      window.alert (` A soma entre ${n1}, ${n2} e ${n3} é igual a ` + String(s)) // concatenação. O String() converterá o s de número pra string
+      // (number + number)  adição
+      // (string + string) concatenação
+      // o window.prompt trata o valor como string, se for pra somar os números, então tem que converter de string pra número
+    </script>
+</body>
+</html>

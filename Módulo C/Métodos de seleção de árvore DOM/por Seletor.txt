@@ -1,0 +1,11 @@
+por Seletor *Lei junto com o de ID*
+querySelector()
+querySelectorAll() //forma no plural
+
+Ele pode ser usado no lugar de todos os outros.
+1º cria uma varável no () usa-se a sintaxe do CSS
+var d = window.document.querySelector('div#msg')
+Importante: Toda div é representada por uma #
+Toda classe é representada por um .
+Agora que tá selecionado pode modificar
+d.style.background = 'blue'

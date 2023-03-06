@@ -1,0 +1,4 @@
+FUnções são escritas em blocos (dentro das chaves {}) São conjuntos de códigos que são executadas só quando um evento ocorrer:
+
+function ação(parâmetros){
+}

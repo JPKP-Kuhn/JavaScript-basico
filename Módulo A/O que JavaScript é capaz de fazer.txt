@@ -1,0 +1,34 @@
+O que faz JavaScript?
+Na verdade é possível fazer quase tudo
+
+Conceito cliente servidor: 
+Ao assistitir um vídeo no youtube, meu celular ou computador são os clientes que estão sendo utilizados num serviço (youtube) que é fornecido por um servidor, como estou assistindo os vídeos, então estou pegando dados do servidor do  youtube.
+Os servidores, que são máquinas de alta performance, estão fornecendo os dados que, no caso do youtube, são os vídeos.
+No momento que se usa um dispositivo (computador, celular), ele será um cliente que precisa de dados fornecidos por um servidor ou mais.
+Na internet se usa um navegador e com a URL (é o link do site) vai para a infraestrutura da internet que te responde exatamente para qual servidor você será desviado.
+Nesses servidores, há arquivos, como documento HTML. Ao solicitar acesso a um servidor, ele te enviará uma cópia, diretamente para o cliente através do navegador que trabalhar para gerar o efeito visual, o site como se vê.
+
+  O JavaScript surgiu como uma tecnologia para clientes (atualmente funciona até nos servidores), logo é uma tecnologia client-side
+
+Um website, na grande maioria das vezes tem 3 tecnologias do lado do cliente: O conteúdo, o design e as interações.
+Aquilo responsável pelo conteúdo, como textos, imagens e vídeos, é a tecnologia HTML;
+O design, pra deixar tudo mais bonito, é chamado de CSS;
+O programador, responsável pelas interações e integrações, é o JavaScript
+As 3 tecnologias trabalham juntas e compõe a parte de clientes de hoje em dia.
+A tecnologia HTML foca principalmente nos textos e marcações que existem nesse texto, então é possível também com HTML deixar o título maior ou colocar uma imagem no meio desse texto, organiza-lo.
+  O CSS trabalha com o design, pra deixar bonito. Mudar as posições dos textos, colocar bordas e cores.
+O JavaScript trabalha com a interação com o site e pode fazer coisas como: ao passar o ponteiro do mouse na imagem, aparecerá um texto explicativo (legenda), ou quando clicar, fazer a imagem ficar maior e voltá-la ao normal. Ele pode até modificar o documento na parte HTML e CSS.
+ É importante destacar que o HTML e CSS não são linguagens de programação e sim tecnologias de construção de site. Já JavaScript é uma linguagem de programação.
+Alguns sites que usam JavaScript são Googçe, Youtube, Linkedin, Netflix, Facebook, Amazon, IBM, até Governos de países, entre outros.
+ 
+Quando clico em inspecionar (dentro de um site, abre o dev tools), a barra que abre é o código HTML para o site que está, é o conteúdo
+No console do dev tools você pode dar comandos como alert('Olá mundo!')
+document.body.style.background = 'black'
+Você pode clicar na seta no canto superior esquerdo pra poder pegar o nome da imagem aí escreve:
+document.querySelector('nome da imagem').style.filter = 'grayscale(100%)'  
+// ficará em escalas de cinza
+Pra tirar a imagem copie o mesmo código anterior até style. e escreva:
+...style.visibility = 'hidden'
+
+Essas modificações aparecem somente pra você, depois de apertar F5 o servidor enviará denovo a cópia daquele arquivo do jeitinho que ele foi construído
+Pra modificar o texto depois do ('nome da imagem ou texto').  escreva innerText =  'Novo texto'

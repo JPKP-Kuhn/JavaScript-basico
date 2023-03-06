@@ -1,0 +1,10 @@
+Formatando strings
+ Quando eu precisar, por exemplo, escrever uma frase (então usarei uma string) e ao longo da frase colocar algumas var (pra isso eu uso a concatenação: 'string0' + var nome + 'string1), podemos usar uma template strings (um formatador de strings) que usa a crase:
+`Eu estou aprendendo ${s}` o ${} se chama place holder. Entre as {} fica o nome da var.
+ 
+Outros exemplos:
+var s = 'JavaScript'
+s.length  //s é o nome da var, lenght é um atributo que dirá o comprimento da string, quantos caracteres
+
+s.toUpperCase() // tudo para 'MAIÚSCULAS'
+s.toLowerCase() // tudo para 'minúsculas'

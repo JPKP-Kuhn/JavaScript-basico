@@ -1,0 +1,29 @@
+Operadores ternários
+
+2 símbolos que aparecem na mesma expressão:
+?   :
+
+Ele se cham ternário porque tem 3 partes (operandos):
+
+teste ?  true : false
+
+O bloco de teste é um teste lógico que retorna true ou false
+Se ele for verdadeiro o bloco true será executado, se for falso, o bloco false será executado.
+média >= 7.0 ? "Aprovado" : "Reprovado"  //depende do teste lógico
+
+Teste no Node:
+
+var média = 5.5
+média >= 7.0 ? "Aprovado" : "Reprovado"
+"Reprovado"
+média +=3  //agora média == 8.5
+média >= 7.0 ? "Aprovado" : "Reprovado"
+"Aprovado"
+
+Outros exemplos no Node:
+var x = 8
+var resto = x % 2 == 0 ? 5 : 9  //resto == 5, pois 1º aritmético, 2º relacional
+
+var idade = 19
+var r = idade >= 18 ? 'MAIOR' : 'MENOR'
+r == 'MAIOR'

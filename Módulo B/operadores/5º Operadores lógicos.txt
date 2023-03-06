@@ -1,0 +1,39 @@
+Operadores lógicos
+são 3:
+!  negação, quer dizer não  "Eu quero uma caneta, mas não pode ser azul"
+&&  conjunção, quer dizer e  "Quero uma caneta vermelha e uma azul"
+||  disjunção, quer dizer ou  "Quero uma caneta vermelha ou azul, pode ser as duas ou uma dessas"
+
+
+! (não) operador de negação tratado como operador unário, ou seja, ele só tem um operando, então depois dele eu coloco true ou false ou uma expressão que dê um desses 2
+
+! true  --> false  //uma coisa que é não verdadeira é falsa
+! false --> true  //uma coisa que é não falsa é verdadeira
+
+&& (e) operador de conjunção é um operador binário, ou seja, com dois valores lógicos, um de cada lado, que darão o resultado lógico dessa expressão
+true && true  --> true   //exemplo: "Eu quero uma caneta azul e vermelha e consegui as duas, então true
+true && false  --> false  //faltou conseguir uma caneta, então false
+false && true  --> false
+false && false  -->  false   //não conseguiu nenhuma das duas
+
+||  (ou) operador de disjunção é um operador binário semelhante ao &&, mas nesse basta que um deles seja true para o resultado ser true:
+true || true  -->  true
+true || false --> true
+false || true --> true
+false || false --> false
+
+Pode usar var e operadores aritméticos (1º) e relacionais (2º), por fim os lógicos:
+var a = 5
+var b = 8
+a > b  && b % 2 == 0  
+false  //pois a > b  --> false
+
+a <= b || b/2 == 2 
+true   // pois a<= b --> true  , mesmo que b/2 == 2 --> false
+
+A ordem de execução dos operadores lógicos é: 1º !; 2º &&; 3º ||
+
+Exemplos:
+idade >= 15 && idade <= 17   // a idade está entre 15 e 17, incluindo esses dois?
+estado == 'RJ' || estado == 'SP'  //o estado de residência é RJ ou SP?
+salário > 1500 && sexo != 'M'  //o salário é acima de 1500 e não é masculino?

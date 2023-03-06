@@ -1,0 +1,43 @@
+[] siginifica: conceito, não faz parte do código
+Os comando seguem sequências bem definidas:
+var n = 3
+n += 2
+window.alert(n)
+Sempre será executado nessa ordem, 1º o primeiro comando, 2º o segundo comando e 3º o terceiro comando, mas se precisar executar só até o 2º, passando pelo 3º?
+Utiliza-se as condições que servem com filtros, formam devios, pois não segue mais uma sequência.
+Pode ser um desvio condicional:
+if(condição){
+bloco pra true
+} else{
+bloco pra false
+}
+Condição simples só tem até o if
+
+Condições aninahdas são aquelas que estão uma dentro da outra (aninhar vem de ninho
+um dentro dooutro), aumentando a quantidade de possibilidades:
+if(condição1){
+ [linha de intentação]   bloco1
+}else{
+    if(condição2){
+  [linha de intentação]      bloco2
+    }else{
+        bloco3
+    }
+}
+
+Condição múltipla:
+Serve pra valores fixos e tem possibilidade para vários valores (testa esses valores)
+switch(expressão){
+    case valor1:
+    bloco1
+    break [esse break é obrigatório, veio da linguagem C]
+    case valor2:
+    bloco2
+    break
+    case valor3:
+    bloco3
+    break
+    default:[esse é como se fosse o else do if]
+}
+1º ele testa a expressão e chega num determinado case e 2º executa os comando desse case. 3º
+ao chegar no break, sairá do switch
